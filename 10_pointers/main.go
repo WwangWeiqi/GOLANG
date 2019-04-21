@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func replace(a *int) int {
+func replace(a *int) { //replace by point that point to address
+	fmt.Println(a)
 	*a = 10
-	return *a
 }
 
 func main() {
